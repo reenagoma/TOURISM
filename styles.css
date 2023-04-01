@@ -1,0 +1,104 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+}
+.hero{
+    padding:50px;
+    height: 200px;
+    background-color: #86CB92;
+    background-image: url("images/images.jpeg");
+    background-size: cover;
+    margin: 0;
+    
+}
+h1{
+    font-size:40px;
+    color:white;
+    width: 200px;
+    margin:auto; 
+    background-color: #F1FAEE;
+    text-shadow:0 0 5px black; 
+    border-radius: 40px;
+    padding: 15px 20px;
+    
+}
+h2{
+    width: 250px;
+    font-size:20px; 
+    color:white;
+    text-shadow:0 0 10px white; 
+    margin: 20px auto;
+}
+h3{
+    margin: 0;
+    padding:20px;
+}
+img {
+    width: 100px; 
+ 
+}
+.gallery, .conservation, .food{
+    border-radius: 50%; 
+}
+.topthree{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    color:#588157; 
+}
+.activities{
+    background-color: #F1FAEE;
+    color: #3A5A40;
+}
+.guide{
+    line-height:15px;
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    background:  #D8F3DC;
+    color: #870B0B;
+    border: 2px solid #4B7F52;
+    border-radius: 10px;
+
+}
+.id{
+    width: 200px;
+    height: 200px;
+    margin-right:20px
+}
+.bold{
+    font-weight:bold;
+}
+.gallery:hover, .food:hover, .conservation:hover{
+    width: 250px;
+}
+
+.text{
+    padding-left:20px;
+    padding-right:20px;
+    width: 200px;
+    height:100px; 
+    justify-content: space-around;
+    margin:auto;
+    
+}
+.top{
+    width:300px
+}
